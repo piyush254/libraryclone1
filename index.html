@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylle.css">
+
+</head>
+
+<body>
+    <nav id="nav">
+        <ul>
+            <li class="left-link"> <a href="#">Library System</a></li>
+            <li class="right-links"><a href="">Logout</a></li>
+            <li class="right-links"><a href="" class="links-1">Contact Us</a></li>
+            <li class="right-links"><a href="#register" class="links-1">Register</a></li>
+            <li class="right-links"><a href="#books" class="links-1">Books</a></li>
+        </ul>
+    </nav>
+    <section id="books"class="box">
+        <h2>Books</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Book ID
+                    </th>
+                    <th>
+                        Title
+                    </th>
+                    <th>
+                        Author
+                    </th>
+                    <th>
+                        Genre
+                    </th>
+                    <th>
+                        Availibility
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><a target="_blank" href="https://www.amazon.in/MAKING-INDIA-AWESOME-Chetan-Bhagat/dp/8129137429/ref=sr_1_1?adgrpid=1320515074782391&hvadid=82532462426236&hvbmt=be&hvdev=c&hvlocint=90&hvlocphy=157825&hvnetw=o&hvqmt=e&hvtargid=kwd-82533072377054%3Aloc-90&hydadcr=23608_2291703&keywords=making+india+awesome+book&qid=1708178993&sr=8-1">Making India Awesome</a>
+                        <p>Publication Date: 2015 </p>
+                        <p> Page Count: 192</p>
+                        <p> 978-6998844543</p>
+                    </td>
+                    <td>Chetan Bhagat</td>
+                    <td>Fictional</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a target="_blank" href="https://www.amazon.in/Bhagwat-Gita-Hindi-Symphony-Spirit/dp/8172345453/ref=sr_1_1_sspa?adgrpid=1323813607345738&hvadid=82738609450624&hvbmt=be&hvdev=c&hvlocphy=157825&hvnetw=o&hvqmt=e&hvtargid=kwd-82739227752067%3Aloc-90&hydadcr=26455_2100275&keywords=bhagwat+geeta+amazon&qid=1708179155&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">The Bhagwat Gita</a>
+                        <p>Publication Date: 2014 </p>
+                        <p> Page Count: 520</p>
+                        <p> ISBN: 978-8172345457</p>
+                    </td>
+                    <td>RR Verma</td>
+                    <td>scripture</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><a target="_blank" href="https://www.amazon.in/Ikigai-H%C3%A9ctor-Garc%C3%ADa/dp/178633089X/ref=sr_1_1_sspa?crid=2KD893YESA82X&keywords=ikigai&qid=1708179294&sprefix=ikiga%2Caps%2C275&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">Ikigai</a>
+                        <p>Publication Date: 2017</p>
+                        <p> Page Count: 208</p>
+                        <p> ISBN: 978-1786330895</p>
+                    </td>
+                    <td>Francesc Miralles</td>
+                    <td>Non-fiction</td>
+                    <td>Not Available</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><a target="_blank" href="https://www.amazon.in/Rich-Dad-Poor-Robert-Kiyosaki/dp/8186775218/ref=sr_1_1_sspa?crid=3C3ILPNASG5WT&keywords=rich+dad+poor+dad+book&qid=1708179428&sprefix=rich+da%2Caps%2C275&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">Rich Dad Poor Dad</a>
+                        <p>Publication Date: 2013</p>
+                        <p> Page Count: 320</p>
+                        <p> ISBN: 978-8186775219</p>
+                    </td>
+                    <td>Robert Kiyosaki</td>
+                    <td>Business</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><a target="_blank" href="https://www.amazon.in/HOW-STOP-WORRYING-START-LIVING/dp/8129140195/ref=sr_1_1_sspa?crid=3FUBQ7H24R8WN&keywords=how+to+stop+worrying+and+start+living+book&nsdOptOutParam=true&qid=1708179529&sprefix=how+to+stop+%2Caps%2C292&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">How To Stop Worrying And Start Living</a>
+                        <p>Publication Date: 2016</p>
+                        <p> Page Count: 288</p>
+                        <p> ISBN: 978-8129140197</p>
+                    </td>
+                    <td>Dale Carnegie</td>
+                    <td>Personal Development</td>
+                    <td>Available</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section class="box-2" id="register">
+        <h2>Register</h2>
+        <form action="">
+            <label for="first-name">First Name:</label>
+            <input id ="first-name"type="text" name ="first-name" required>
+            <label for="last-name">Last Name:</label>
+            <input id ="last-name" type="text" name = "last-name" required>
+            <label for="DOB">Date Of Birth:</label>
+            <input id ="DOB" type="date"  name = "DOB" required>
+            <label for="age">Age:</label>
+            <input id ="age" type="number" name = "age" min="5" max="100" required>
+            <label for="email">Email:</label>
+            <input id ="email" type="email" name = "email" required>
+            <label for="password">Password:</label>
+            <input id ="password" type="password" name = "password" required>
+            <label for="confirm-password">Confirm Password:</label>
+            <input id ="confirm-password"type="password" name="confirm-password" required>
+            <button type="submit">Register</button>
+        </form>
+    </section>
+</body>
+
+</html>
